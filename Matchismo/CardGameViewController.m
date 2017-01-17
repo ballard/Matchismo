@@ -24,7 +24,7 @@
 
 - (IBAction)touchCardButton:(UIButton *)sender
 {
-    int cardIndex = [self.cardButtons indexOfObject:sender];
+    int cardIndex = (int)[self.cardButtons indexOfObject:sender];
     [self.game chooseCardAtIndex:cardIndex];
     [self updateUI];
 }
@@ -32,7 +32,7 @@
 - (void)updateUI
 {
     for (UIButton *cardButton in self.cardButtons) {
-        int cardButtonIndex = [self.cardButtons indexOfObject:cardButton];
+        int cardButtonIndex = (int)[self.cardButtons indexOfObject:cardButton];
         Card *card = [self.game cardAtIndex:cardButtonIndex];
         [cardButton setTitle:[self titleForCard:card] forState:UIControlStateNormal];
         [cardButton setBackgroundImage:[self imageForCard:card] forState:UIControlStateNormal];
