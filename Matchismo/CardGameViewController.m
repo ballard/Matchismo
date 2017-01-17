@@ -7,7 +7,7 @@
 //
 
 #import "CardGameViewController.h"
-#import "Model/PlayingCardDeck.h"
+//#import "Model/PlayingCardDeck.h"
 #import "Model/PlayingCard.h"
 #import "Model/CardMatchingGame.h"
 
@@ -37,14 +37,14 @@
         [cardButton setTitle:[self titleForCard:card] forState:UIControlStateNormal];
         [cardButton setBackgroundImage:[self imageForCard:card] forState:UIControlStateNormal];
         cardButton.enabled = !card.isMatched;
-        self.scoreLabel.text = [NSString stringWithFormat:@"Score: %d", self.game.score];
-        NSLog(@"score: %d", self.game.score);
+        self.scoreLabel.text = [NSString stringWithFormat:@"Score: %ld", (long)self.game.score];
+        NSLog(@"score: %ld", (long)self.game.score);
     }
 }
 
 - (Deck *) createDeck
 {
-    return [[PlayingCardDeck alloc] init];
+    return nil; //abstract - old returning value: [[PlayingCardDeck alloc] init];
 }
 
 - (CardMatchingGame *) game

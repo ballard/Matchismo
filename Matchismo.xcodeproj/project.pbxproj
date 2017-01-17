@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FCB81231E2E378D001AFCF1 /* PlayingCardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB81221E2E378D001AFCF1 /* PlayingCardGameViewController.m */; };
 		2CE3D6BF1E1D2B0F00E3D95D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE3D6BE1E1D2B0F00E3D95D /* main.m */; };
 		2CE3D6C21E1D2B0F00E3D95D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE3D6C11E1D2B0F00E3D95D /* AppDelegate.m */; };
 		2CE3D6C51E1D2B0F00E3D95D /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE3D6C41E1D2B0F00E3D95D /* CardGameViewController.m */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FCB81211E2E378D001AFCF1 /* PlayingCardGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardGameViewController.h; sourceTree = "<group>"; };
+		1FCB81221E2E378D001AFCF1 /* PlayingCardGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardGameViewController.m; sourceTree = "<group>"; };
 		2CE3D6BA1E1D2B0E00E3D95D /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE3D6BE1E1D2B0F00E3D95D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2CE3D6C01E1D2B0F00E3D95D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 				2CE3D6C61E1D2B0F00E3D95D /* Main.storyboard */,
 				2CE3D6C91E1D2B0F00E3D95D /* Assets.xcassets */,
 				2CE3D6BD1E1D2B0E00E3D95D /* Supporting Files */,
+				1FCB81211E2E378D001AFCF1 /* PlayingCardGameViewController.h */,
+				1FCB81221E2E378D001AFCF1 /* PlayingCardGameViewController.m */,
 			);
 			path = Matchismo;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 				2CE3D6E01E20498300E3D95D /* PlayingCardDeck.m in Sources */,
 				2CE3D6DD1E20405900E3D95D /* Deck.m in Sources */,
 				2CE3D6D61E1EE75800E3D95D /* Card.m in Sources */,
+				1FCB81231E2E378D001AFCF1 /* PlayingCardGameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
